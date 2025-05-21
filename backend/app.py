@@ -51,7 +51,7 @@ TRANSFORM = transforms.Compose([
 # Load PyTorch model
 def load_model():
     try:
-        model_path = os.path.join('model', 'efficientnet_skin_disease1.pth')
+        model_path = os.path.join('model', 'efficientnet_skin_disease_full1.pth')
         if not os.path.exists(model_path):
             raise FileNotFoundError(f"Model file not found at: {model_path}")
         
