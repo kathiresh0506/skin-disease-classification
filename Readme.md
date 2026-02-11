@@ -33,6 +33,9 @@
    ```
 2. Open `http://localhost:8000` in your browser.
 
+   CI/CD checking
+
+
 ## Usage
 
 - Select an image and click **Predict**.
